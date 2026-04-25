@@ -3,15 +3,18 @@
   "version": "0.1.0",
   "description": "DX-first React hooks for URL query state + latest-wins async fetching.",
   "license": "MIT",
-  "author": "",
+  "author": "i-mml",
   "keywords": [
     "react",
-    "nextjs",
-    "url",
-    "querystring",
     "hooks",
+    "url",
+    "query-string",
+    "url-state",
+    "search-params",
     "typescript",
-    "abortcontroller"
+    "abortcontroller",
+    "async",
+    "fetch"
   ],
   "sideEffects": false,
   "type": "module",
@@ -27,15 +30,17 @@
   },
   "files": [
     "dist",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "scripts": {
-    "build": "tsup",
+    "clean": "rimraf dist",
+    "build": "tsup src/index.ts --format esm,cjs --dts --clean",
     "typecheck": "tsc -p tsconfig.json --noEmit",
-    "clean": "rimraf dist"
+    "prepublishOnly": "npm run clean && npm run build"
   },
   "peerDependencies": {
-    "react": ">=18.0.0"
+    "react": ">=18"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",
@@ -44,5 +49,12 @@
     "tsup": "^8.4.0",
     "typescript": "^5.7.3"
   },
-  "packageManager": "pnpm@10.18.3"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/i-mml/url-sync.git"
+  },
+  "homepage": "https://github.com/i-mml/url-sync#readme",
+  "bugs": {
+    "url": "https://github.com/i-mml/url-sync/issues"
+  }
 }
