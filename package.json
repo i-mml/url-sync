@@ -1,0 +1,48 @@
+{
+  "name": "url-sync",
+  "version": "0.1.0",
+  "description": "DX-first React hooks for URL query state + latest-wins async fetching.",
+  "license": "MIT",
+  "author": "",
+  "keywords": [
+    "react",
+    "nextjs",
+    "url",
+    "querystring",
+    "hooks",
+    "typescript",
+    "abortcontroller"
+  ],
+  "sideEffects": false,
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js",
+      "require": "./dist/index.cjs"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "clean": "rimraf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "react": "^18.3.1",
+    "rimraf": "^6.0.1",
+    "tsup": "^8.4.0",
+    "typescript": "^5.7.3"
+  },
+  "packageManager": "pnpm@10.18.3"
+}
