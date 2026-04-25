@@ -1,8 +1,8 @@
-# url-sync
+# use-param-sync
 
-[![npm](https://img.shields.io/npm/v/url-sync?style=flat-square)](https://www.npmjs.com/package/url-sync)
-[![license](https://img.shields.io/npm/l/url-sync?style=flat-square)](https://www.npmjs.com/package/url-sync)
-[![peer](https://img.shields.io/npm/dependency-version/url-sync/peer/react?style=flat-square)](https://react.dev/)
+[![npm](https://img.shields.io/npm/v/use-param-sync?style=flat-square)](https://www.npmjs.com/package/use-param-sync)
+[![license](https://img.shields.io/npm/l/use-param-sync?style=flat-square)](https://www.npmjs.com/package/use-param-sync)
+[![peer](https://img.shields.io/npm/dependency-version/use-param-sync/peer/react?style=flat-square)](https://react.dev/)
 
 **Type-safe URL query state and latest-wins async for React 18+** — small surface area, no extra runtime beyond React, ESM + CJS, full TypeScript types.
 
@@ -30,15 +30,15 @@ Most libraries optimize for **either** keeping UI state in the URL **or** making
 ## Installation
 
 ```bash
-npm install url-sync
+npm install use-param-sync
 ```
 
 ```bash
-pnpm add url-sync
+pnpm add use-param-sync
 ```
 
 ```bash
-yarn add url-sync
+yarn add use-param-sync
 ```
 
 **Peer dependency:** `react` >= 18.
@@ -92,7 +92,7 @@ const { data, error, loading, run } = useLatestAsync(
 ```tsx
 "use client";
 
-import { useLatestAsync, useUrlState } from "url-sync";
+import { useLatestAsync, useUrlState } from "use-param-sync";
 
 export function UsersExplorer() {
   const [filters, setFilters] = useUrlState(

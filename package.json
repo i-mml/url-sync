@@ -1,5 +1,5 @@
 {
-  "name": "url-sync",
+  "name": "use-param-sync",
   "version": "0.1.0",
   "description": "DX-first React hooks for URL query state + latest-wins async fetching.",
   "license": "MIT",
@@ -51,10 +51,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/i-mml/url-sync.git"
+    "url": "https://github.com/i-mml/use-param-sync.git"
   },
-  "homepage": "https://github.com/i-mml/url-sync#readme",
+  "homepage": "https://github.com/i-mml/use-param-sync#readme",
   "bugs": {
-    "url": "https://github.com/i-mml/url-sync/issues"
+    "url": "https://github.com/i-mml/use-param-sync/issues"
   }
 }
