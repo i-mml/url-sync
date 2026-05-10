@@ -6,6 +6,10 @@
 
 **Type-safe URL query state and latest-wins async for React 18+** — small surface area, no extra runtime beyond React, ESM + CJS, full TypeScript types.
 
+🌐 Landing page & live demo: https://use-sync-param.vercel.app/
+
+📦 npm: https://www.npmjs.com/package/use-param-sync
+
 ---
 
 ## Why this exists
@@ -44,6 +48,13 @@ yarn add use-param-sync
 **Peer dependency:** `react` >= 18.
 
 ---
+
+## Live Demo
+
+Explore real-world examples with URL state syncing, async cancellation,
+Axios integration, mutations, and large filter models:
+
+👉 https://use-sync-param.vercel.app/demo
 
 ## Quick start
 
@@ -189,6 +200,9 @@ export type { UseUrlStateOptions, UseLatestAsyncResult };
 
 ---
 
-## License
+## Links
 
-MIT
+- 🌐 Website: https://use-sync-param.vercel.app/
+- 🎬 Interactive Demo: https://use-sync-param.vercel.app//demo
+- 📦 npm: https://www.npmjs.com/package/use-param-sync
+- 💻 GitHub: https://github.com/i-mml/use-param-sync

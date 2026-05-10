@@ -1,6 +1,6 @@
 {
   "name": "use-param-sync",
-  "version": "0.1.0",
+  "version": "1.1.0",
   "description": "DX-first React hooks for URL query state + latest-wins async fetching.",
   "license": "MIT",
   "author": "i-mml",
@@ -53,7 +53,7 @@
     "type": "git",
     "url": "https://github.com/i-mml/use-param-sync.git"
   },
-  "homepage": "https://github.com/i-mml/use-param-sync#readme",
+  "homepage": "https://use-sync-param.vercel.app/",
   "bugs": {
     "url": "https://github.com/i-mml/use-param-sync/issues"
   }
